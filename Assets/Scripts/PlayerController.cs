@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public AudioClip deathClip;
-    public float jumpforce = 700f;
+    public float jumpforce = 100f;
     int jumpCount = 0;
     bool isGrounded = false;
     bool isDead = false;
